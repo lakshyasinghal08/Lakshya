@@ -33,13 +33,13 @@ int main(){
     // else{
     //     cout<<"you can enter the invalid number : try again !!";
     // }
-    int n;
-    cout<<"enter the value of n :";
-    cin>>n;
-    int i = 1;
-    while(i<=n){
-    cout<<i<<endl;
-    i++;
-    }
+    // int n;
+    // cout<<"enter the value of n :";
+    // cin>>n;
+    // int i = 1;
+    // while(i<=n){
+    // cout<<i<<endl;
+    // i++;
+    // }
     return 0;
 }
