@@ -1,7 +1,7 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-void explainpair(){
+// void explainpair(){
 // pair<int , int>p = {1,3};
 // cout<<"first  = "<< p.first << " second = "<<p.second<<endl;
 // pair<int , pair<int,int>>a={1,{3,4}};
@@ -26,20 +26,35 @@ void explainpair(){
 // for(auto f : b){
 //     cout<<f<<" "<<endl;
 // }
-vector<int>v(5);
-vector<int>v1(5,20);
-vector<int>v2(v1);
-for(auto a : v){
-    cout<<"a = "<<a<<" "<<endl;
-}
-for(auto b: v1){
-    cout<<"v1 = "<<b<<" "<<endl;
-}
-for(auto c : v2){
-    cout<<"v2 = "<<c<<" "<<endl;
-}
-}
+// vector<int>v(5);
+// vector<int>v1(5,20);
+// vector<int>v2(v1);
+// for(auto a : v){
+//     cout<<"a = "<<a<<" "<<endl;
+// }
+// for(auto b: v1){
+//     cout<<"v1 = "<<b<<" "<<endl;
+// }
+// for(auto c : v2){
+//     cout<<"v2 = "<<c<<" "<<endl;
+// }
+// }
+// int main(){
+//     explainpair();
+//     return 0;
+// }
 int main(){
-    explainpair();
+    unordered_set<int> s;
+
+    s.insert(10);
+    s.insert(20);
+    s.insert(30);
+
+    for (auto x : s) cout << x << " ";
+    cout << endl;
+
+    if (s.find(20) != s.end()) cout << "20 found\n";
+    else cout << "20 not found\n";
+
     return 0;
 }
